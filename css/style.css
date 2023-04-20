@@ -1,0 +1,84 @@
+/*загальний стиль*/
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #2e2f42;
+  background: #ffffff;
+}
+:root {
+  --background-color: #2e2f42;
+  --logo-colorfooter: #f4f4fd;
+  --logo-colorweb: #4d5ae5;
+  --title-color: #ffffff;
+  --text-color: #434455;
+  --btn-color: #4d5ae5;
+  --btn-active-color: #ffffff;
+}
+.logo-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e7e9fc;
+  position: absolute;
+  width: 1440px;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 115px;
+  height: 24px;
+  left: 156px;
+  top: 24px;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  position: absolute;
+  width: 261px;
+  height: 24px;
+  left: 347px;
+  top: 24px;
+}
+.mail {
+  position: absolute;
+  width: 153px;
+  height: 24px;
+  left: 940px;
+  top: 24px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.phone {
+  position: absolute;
+  width: 151px;
+  height: 24px;
+  left: 1133px;
+  top: 24px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+main {
+  display: inline;
+}
