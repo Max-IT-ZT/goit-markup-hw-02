@@ -5,6 +5,7 @@ body {
   background-color: #ffffff;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* Відносні стилі */
 :root {
@@ -85,6 +86,8 @@ ol {
   color: var(--text-color);
 }
 .header-nav-link {
+  /* letter-spacing: 0.02em; */
+  color: var(--text-color);
   font-weight: 500;
 }
 .header-nav-link:hover,
@@ -113,7 +116,7 @@ ol {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   color: var(--hero-title-color);
 }
 .hero-btn {
@@ -133,26 +136,32 @@ ol {
 .hero-btn:focus {
   background-color: var(--btn-active-color);
 }
-.advantages-subtitle {
+.advantages-subtitle,
+.team-subtitle,
+.portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   color: var(--text-color);
 }
-.portfolio-title {
+.portfolio-title,
+.team-title {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   color: var(--text-color);
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   text-transform: capitalize;
 }
 .team {
   background-color: #f4f4fd;
 }
-.team-title {
+.team-list {
+  background-color: #ffffff;
+}
+/* .team-title {
   text-align: center;
   letter-spacing: 0.02em;
   font-weight: 700;
@@ -160,14 +169,14 @@ ol {
   line-height: 1.11;
   color: var(--text-color);
   text-transform: capitalize;
-}
-.team-subtitle {
+} */
+/* .team-subtitle {
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--text-color);
-}
+} */
 .footer {
   background-color: var(--background-color);
 }
@@ -204,13 +213,10 @@ ol {
   background-color: var(--btn-active-color);
   color: var(--btn-active-color-text);
 }
-.portfolio-subtitle {
+/* .portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--text-color);
-}
-.portfolio-tex {
-  letter-spacing: 0.02em;
-}
+} */
