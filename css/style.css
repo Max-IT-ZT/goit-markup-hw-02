@@ -97,8 +97,8 @@ ol {
 .header-contacts {
   font-style: normal;
 }
-.header-contacts-list {
-  color: var(--text-color);
+.header-contact-link {
+  color: var(--text-color-main);
 }
 .header-contact-link:hover,
 .header-contact-link:focus {
@@ -116,7 +116,7 @@ ol {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  /* letter-spacing: 0.02em; */
+  letter-spacing: 0.02em;
   color: var(--hero-title-color);
 }
 .hero-btn {
@@ -142,7 +142,7 @@ ol {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  /* letter-spacing: 0.02em; */
+  letter-spacing: 0.02em;
   color: var(--text-color);
 }
 .portfolio-title,
@@ -152,13 +152,13 @@ ol {
   font-size: 36px;
   line-height: 1.11;
   color: var(--text-color);
-  /* letter-spacing: 0.02em; */
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .team {
   background-color: #f4f4fd;
 }
-.team-list {
+.team-item {
   background-color: #ffffff;
 }
 /* .team-title {
