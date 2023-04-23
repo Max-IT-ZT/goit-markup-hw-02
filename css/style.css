@@ -1,20 +1,40 @@
 /*Загальний стиль*/
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
-  background: #ffffff;
+  color: var(--text-color-main);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* Відносні стилі */
 :root {
   --background-color: #2e2f42;
-  --logo-colorfooter: #f4f4fd;
-  --logo-colorweb: #4d5ae5;
-  --title-color: #ffffff;
+  --logo-color-footer: #f4f4fd;
+  --logo-color-web: #4d5ae5;
+  --hero-title-color: #ffffff;
   --text-color: #434455;
+  --text-color-main: #2e2f42;
   --btn-color: #4d5ae5;
-  --btn-active-color: #ffffff;
+  --btn-active-color: #404bbf;
+  --btn-active-color-text: #ffffff;
+  --a-active-color: #404bbf;
+  --footer-text-color: #f4f4fd;
 }
-h1,
+/* Приховані заголовки */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* h1,
 h2,
 h3,
 h4,
@@ -41,59 +61,90 @@ ol {
   list-style: none;
   margin: 0;
   padding-left: 0;
-}
-
-a {
-  text-decoration: none;
-  /* color: inherit; */
-}
-
-.container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
+} */
+/* Скидання стилів для посиланнь і списків */
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
+  color: inherit;
 }
-/* Logo */
-/* Навігація по сайту */
-.nav-link {
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.03em;
+}
+.header-logo-tex {
+  color: var(--logo-color-web);
+}
+.header-nav-link {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  /* ідентична висоті коробки, або 150% */
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  /*Внутрішній автоматичний макет*/
-  /* flex: none;
-  order: 0;
-  flex-grow: 0; */
 }
-/* Посилання на пошту */
-.mail-link {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5px;
-  /* ідентична висоті коробки, або 150% */
-  letter-spacing: 0.02em;
-  color: #434455;
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--a-active-color);
 }
-/* Посилання на телефон */
-.phone-link {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5px;
-  /* ідентична висоті коробки, або 150% */
-  letter-spacing: 0.02em;
-  color: #434455;
+.header-contacts-list {
+  color: var(--text-color);
+}
+.header-mail-link:hover,
+.header-mail-link:focus {
+  color: var(--a-active-color);
+}
+.header-phone-link:hover,
+.header-phone-link:focus {
+  color: var(--a-active-color);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--hero-title-color);
+}
+.hero-btn {
+  background-color: var(--btn-color);
+  color: var(--btn-active-color-text);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  letter-spacing: 0.04em;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--btn-active-color);
+}
+.advantages-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.advantages-tex {
+  color: var(--text-color);
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.team-tex {
+  color: var(--text-color);
+}
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.03em;
+}
+.footer-logo-tex {
+  color: var(--logo-color-footer);
+}
+.footer-tex {
+  color: var(--footer-text-color);
 }

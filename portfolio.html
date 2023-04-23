@@ -13,64 +13,63 @@
 
     <link rel="stylesheet" href="./css/style.css" />
     <title>WebStudio</title>
-  </head>
-  <body>
-    <!--Шапка з навігацією-->
-    <header class="main-header">
-      <nav>
-        <a class="logo-link link" href="./index.html"
-          >Web<span class="header-logo-tex">Studio</span></a
+  <header class="header">
+      <nav class="header-nav">
+        <a class="header-logo link" href="./index.html"
+          ><span class="header-logo-tex">Web</span>Studio</a
         >
-        <ul class="menu list">
-          <li class="menu-item">
-            <a class="nav-link link" href="./index.html">Studio</a>
+        <ul class="header-menu list">
+          <li class="header-menu-item">
+            <a class="header-nav-link link" href="./portfolio.html"
+              >Portfolio</a
+            >
           </li>
-          <li class="menu-item">
-            <a class="nav-link link" href="./portfolio.html">Portfolio</a>
+          <li class="header-menu-item">
+            <a class="header-nav-link link" href="#">Contacts</a>
           </li>
-          <li class="menu-item">
-            <a class="nav-link link" href="#">Contacts</a>
+          <li class="header-menu-item">
+            <a class="header-nav-link link" href="/index.html">Studio</a>
           </li>
         </ul>
       </nav>
-      <address class="contacts">
-        <ul class="contacts-list">
-          <li class="mail-item">
-            <a class="mail-link link" href="mailto:info@devstudio.com"
+      <address class="header-contacts">
+        <ul class="header-contacts-list list">
+          <li class="header-mail-item">
+            <a class="header-mail-link link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li class="mail-item">
-            <a class="mail-link link" href="tel:+110001111111"
+          <li class="header-phone-item">
+            <a class="header-phone-link link" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
             >
           </li>
         </ul>
       </address>
     </header>
-    <main class="main-content">
-      <section class="portfolio-btn">
-        <ul class="menu-btn">
+    <main class="main">
+      <section class="menu-button">
+        <ul class="menu-list">
           <li class="menu-btn-item">
-            <button class="btn-portfolio" type="button">All</button>
+            <button class="menu-btn" type="button">All</button>
           </li>
           <li class="menu-btn-item">
-            <button class="btn-portfolio" type="button">Web Site</button>
+            <button class="menu-btn" type="button">Web Site</button>
           </li>
           <li class="menu-btn-item">
-            <button class="btn-portfolio" type="button">App</button>
+            <button class="menu-btn" type="button">App</button>
           </li>
           <li class="menu-btn-item">
-            <button class="btn-portfolio" type="button">Design</button>
+            <button class="menu-btn" type="button">Design</button>
           </li>
           <li class="menu-btn-item">
-            <button class="btn-portfolio" type="button">Marketing</button>
+            <button class="menu-btn" type="button">Marketing</button>
           </li>
         </ul>
       </section>
-      <section class="section-img">
-        <ul class="portfolio-list-img list">
-          <li class="img-item">
+      <section class="porfolio-img">
+        <ul class="portfolio-list list">
+          <li class="portfolio-item">
             <img
               class="portfolio-img"
               src="./images/portfolio/banking-app.jpg"
@@ -79,9 +78,9 @@
               height="300"
             />
             <h3 class="title-tex">Banking App Interface Concept</h3>
-            <p class="tex">App</p>
+            <p class="portfolio-tex">App</p>
           </li>
-          <li class="img-item">
+          <li class="portfolio-item">
             <img
               class="portfolio-img"
               src="./images/portfolio/cashless-payment.jpg"
@@ -89,10 +88,10 @@
               width="360"
               height="300"
             />
-            <h3 class="title-tex">Cashless Payment</h3>
-            <p class="tex">Marketing</p>
+            <h3 class="portfolio-subtitle">Cashless Payment</h3>
+            <p class="portfolio-tex">Marketing</p>
           </li>
-          <li class="img-item">
+          <li class="portfolio-item">
             <img
               class="portfolio-img"
               src="./images/portfolio/meditation-app.jpg"
@@ -100,14 +99,14 @@
               width="360"
               height="300"
             />
-            <h3 class="title-tex">Meditation App</h3>
-            <p class="tex">App</p>
+            <h3 class="portfolio-subtitle">Meditation App</h3>
+            <p class="portfolio-tex">App</p>
           </li>
         </ul>
       </section>
       <section class="section-img">
         <ul class="portfolio-list-img list">
-          <li class="img-item">
+          <li class="portfolio-item">
             <img
               class="portfolio-img"
               src="./images/portfolio/taxi-service.jpg"
@@ -115,10 +114,10 @@
               width="360"
               height="300"
             />
-            <h3 class="title-tex">Taxi Service</h3>
-            <p class="tex">Marketing</p>
+            <h3 class="portfolio-subtitle">Taxi Service</h3>
+            <p class="portfolio-tex">Marketing</p>
           </li>
-          <li class="img-item">
+          <li class="portfolio-item">
             <img
               class="portfolio-img"
               src="./images/portfolio/screen-illustrations.jpg"
@@ -126,10 +125,10 @@
               width="360"
               height="300"
             />
-            <h3 class="title-tex">Screen Illustrations</h3>
-            <p class="tex">Design</p>
+            <h3 class="portfolio-subtitle">Screen Illustrations</h3>
+            <p class="portfolio-tex">Design</p>
           </li>
-          <li class="img-item">
+          <li class="portfolio-item">
             <img
               class="portfolio-img"
               src="./images/portfolio/online-courses.jpg"
@@ -137,14 +136,14 @@
               width="360"
               height="300"
             />
-            <h3 class="title-tex">Online Courses</h3>
-            <p class="tex">Marketing</p>
+            <h3 class="portfolio-subtitle">Online Courses</h3>
+            <p class="portfolio-tex">Marketing</p>
           </li>
         </ul>
       </section>
       <section class="section-img">
         <ul class="portfolio-list-img list">
-          <li class="img-item">
+          <li class="portfolio-item">
             <img
               class="portfolio-img"
               src="./images/portfolio/instagram-stories.jpg"
@@ -152,10 +151,10 @@
               width="360"
               height="300"
             />
-            <h3 class="title-tex">Instagram Stories Concept</h3>
-            <p class="tex">Design</p>
+            <h3 class="portfolio-subtitle">Instagram Stories Concept</h3>
+            <p class="portfolio-tex">Design</p>
           </li>
-          <li class="img-item">
+          <li class="portfolio-item">
             <img
               class="portfolio-img"
               src="./images/portfolio/organic-food.jpg"
@@ -163,10 +162,10 @@
               width="360"
               height="300"
             />
-            <h3 class="title-tex">Organic Food</h3>
-            <p class="tex">Web Site</p>
+            <h3 class="portfolio-subtitle">Organic Food</h3>
+            <p class="portfolio-tex">Web Site</p>
           </li>
-          <li class="img-item">
+          <li class="portfolio-item">
             <img
               class="portfolio-img"
               src="./images/portfolio/fresh-coffee.jpg"
@@ -174,17 +173,17 @@
               width="360"
               height="300"
             />
-            <h3 class="title-tex">Fresh Coffee</h3>
-            <p class="tex">Web Site</p>
+            <h3 class="portfolio-subtitle">Fresh Coffee</h3>
+            <p class="portfolio-tex">Web Site</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer class="main-footer">
-      <a class="logo-footer link" href="./index.html"
-        >Web<span class="footer-logo-tex">Studio</span></a
+    <footer class="footer">
+      <a class="footer-logo link" href="./index.html"
+        ><span class="footer-logo-tex">Web</span>Studio</a
       >
-      <p class="text-footer">
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
